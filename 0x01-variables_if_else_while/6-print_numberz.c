@@ -11,7 +11,7 @@ int main(void)
 	nu = 0;
 	while (nu <= 9)
 	{
-		printf("%d", nu);
+		putchar(nu + '0');
 		nu++;
 	}
 	putchar('\n');
