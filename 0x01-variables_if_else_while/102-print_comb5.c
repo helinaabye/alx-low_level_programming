@@ -26,10 +26,10 @@ int main(void)
 					if ((e + d) < (c + b))
 					{
 						putchar('0' + e);
-						putchar('0' + d);
-						putchar(' ');
-						putchar('0' + c);
-						putchar('0' + b);
+					//	putchar('0' + d);
+					//	putchar(' ');
+					//	putchar('0' + c);
+					//	putchar('0' + b);
 
 						if (e + d + b + c != 9 + 8 + 9 + 9)
 						{
