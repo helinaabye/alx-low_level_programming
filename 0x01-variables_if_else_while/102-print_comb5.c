@@ -17,25 +17,25 @@ int main(void)
 		d = 0;
 		while (d < 10)
 		{
-			c = 0;
+			c = e;
 			while (c < 10)
 			{
-				b = 0;
+				b = (d + 1);
 				while (b < 10)
 				{
 					if ((e + d) < (c + b))
 					{
-						putchar('0' + e);
-						putchar('0' + d);
-						putchar(' ');
-						putchar('0' + c);
-						putchar('0' + b);
+					putchar('0' + e);
+					putchar('0' + d);
+					putchar(' ');
+					putchar('0' + c);
+					putchar('0' + b);
 
-						if (e + d + b + c != 9 + 8 + 9 + 9)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (e + d + b + c != 9 + 8 + 9 + 9)
+					{
+					putchar(',');
+					putchar(' ');
+					}
 					}
 					b++;
 				}
