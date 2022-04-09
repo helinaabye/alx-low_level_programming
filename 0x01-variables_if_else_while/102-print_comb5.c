@@ -23,7 +23,7 @@ int main(void)
 				b = 0;
 				while (b < 10)
 				{
-					if (b != c && c != d && d != e && e < d && d < c && c < b)
+					if ((e + d) < (c + b))
 					{
 						putchar('0' + e);
 						putchar('0' + d);
@@ -31,7 +31,7 @@ int main(void)
 						putchar('0' + c);
 						putchar('0' + b);
 
-						if (b + c + d + e != 9 + 8 + 7 + 6)
+						if (e + d + b + c != 9 + 8 + 9 + 9)
 						{
 							putchar(',');
 							putchar(' ');
