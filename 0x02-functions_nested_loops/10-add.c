@@ -6,5 +6,5 @@
 
 int add(int n, int e)
 {
-	return (int n + int e);
+	return (n + e);
 }
