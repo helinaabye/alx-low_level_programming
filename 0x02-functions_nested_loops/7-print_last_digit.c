@@ -10,7 +10,7 @@
 int print_last_digit(int n)
 {
 	int i;
-	char l[];
+	char l[22];
 
 	i = n % 10;
 	if (n < 0)
