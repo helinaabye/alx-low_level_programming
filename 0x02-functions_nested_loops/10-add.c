@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * times_table - Prints the 9 times table, starting with 0.
+ * returns the sum two numbers
  */
 
-int add(num int, num int);
+int add(int n, int e);
 {
-	return (int + int);
+	return (int n + int e);
 }
