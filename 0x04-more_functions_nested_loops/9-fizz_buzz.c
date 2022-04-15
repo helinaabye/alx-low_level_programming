@@ -1,6 +1,6 @@
-#include<studio.h>
+#include<stdio.h>
 /**
- * main - is a function that prints fizzbuzz 
+ * main - is a function that prints fizzbuzz
  * Return: 0
  */
 int main(void)
