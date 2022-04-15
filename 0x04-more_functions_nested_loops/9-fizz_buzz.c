@@ -6,8 +6,8 @@
 int main(void)
 {
 	int i;
-	char f[3] = "Fizz";
-	char b[3] = "Buzz";
+	char f[] = "Fizz";
+	char b[] = "Buzz";
 
 	for (i = 0; i <= 100; i++)
 	{
