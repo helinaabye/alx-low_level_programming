@@ -9,13 +9,12 @@ void fizzbuzz(void)
 	int i;
 	char f[3] = "fizz";
 	char b[3] = "buzz";
-	char fb[7] = "fizzbuzz";
 
 	for (i = 0; i <= 100; i++)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("%s", fb);
+			printf("%s %s", f, b);
 		}
 		else if (i % 3 == 0)
 		{
