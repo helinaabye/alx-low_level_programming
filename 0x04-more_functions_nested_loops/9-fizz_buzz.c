@@ -1,10 +1,9 @@
 #include"studio.h"
 /**
- * fizzbuzz - is a function that prints fizzbuzz
- * 
- * Return: void
+ * main - is a function that prints fizzbuzz 
+ * Return: 0
  */
-void fizzbuzz(void)
+int main(void)
 {
 	int i;
 	char f[3] = "Fizz";
@@ -14,7 +13,7 @@ void fizzbuzz(void)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("%s %s", f, b);
+			printf("%s%s", f, b);
 		}
 		else if (i % 3 == 0)
 		{
@@ -33,4 +32,5 @@ void fizzbuzz(void)
 	}
 
 	putchar('\n');
+	return (0);
 }
