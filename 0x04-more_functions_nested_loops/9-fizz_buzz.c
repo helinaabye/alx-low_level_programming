@@ -7,8 +7,8 @@
 void fizzbuzz(void)
 {
 	int i;
-	char f[3] = "fizz";
-	char b[3] = "buzz";
+	char f[3] = "Fizz";
+	char b[3] = "Buzz";
 
 	for (i = 0; i <= 100; i++)
 	{
@@ -28,7 +28,9 @@ void fizzbuzz(void)
 		{
 			printf("%d", i);
 		}
-		putchar("%s", ' ');
+
+		putchar(' ');
 	}
-	putchar("%s", '\n');
+
+	putchar('\n');
 }
