@@ -1,6 +1,6 @@
 #include"main.h"
-/*
- * reset_to_98 - is a function that value of n to 98.
+/**
+ * reset_to_98 - is a function that resets the value of n.
  * @*n: pointer to an int
  * Return: void
  */
