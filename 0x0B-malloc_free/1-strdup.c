@@ -20,12 +20,14 @@ char *_strdup(char *str)
 		size++;
 	}
 
+	size++;
+
 	str2 = (char *) malloc(sizeof(char) * size);
 
 	if (str2 == 0)
 		return (0);
 
-	for (i = 0; i <= size; i++)
+	for (i = 0; i < size; i++)
 	{
 		str2[i] = str[i];
 	}
