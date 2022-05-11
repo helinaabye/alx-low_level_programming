@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "3_calc.h"
+#include "3-calc.h"
 /**
  * main - is the main function
  * @argc: number of lines arguments
