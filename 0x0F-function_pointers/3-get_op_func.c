@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "3-calc.h"
+#include "3_calc.h"
 /**
  * get_op_func - is a function get an operation
  * @s: operator input
