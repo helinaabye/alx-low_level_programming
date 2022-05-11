@@ -1,5 +1,5 @@
-#ifndef 3_calc_h
-#define 3_calc_h
+#ifndef calc_h
+#define calc_h
 /**
  * struct op - is the structure op
  * @op: operator input
@@ -18,4 +18,4 @@ int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
-#endif /*#ifndef 3_calc_h*/
+#endif /*#ifndef calc_h*/
