@@ -36,7 +36,7 @@ void iterate_wild(char **wildstr)
 	}
 }
 /**
- * postfix_match - is a function that checks if a string str matches the postfix
+ * postfix_match - is a function that checks if a string str matches postfix
  * @str: The string to be matched.
  * @postfix: The postfix.
   * Return: If str and postfix are identical - a pointer to the null byte
