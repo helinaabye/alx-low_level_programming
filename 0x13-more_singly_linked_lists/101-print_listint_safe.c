@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * looped_listint_len - is a function that counts unique nodes
- * @head: is a pointer to the start of the list 
+ * @head: is a pointer to the start of the list
  * Return: the number of unique nodes in the list.
  */
 size_t looped_listint_len(const listint_t *head)
