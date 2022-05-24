@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * add_nodeint -adds a new node at the start of a listint_t list
- * @str: is the number input
+ * @n: is the number input
  * @head: is the pointer to the start of the list
  * Return: the address of the new element, or NULL if it failed
  */
