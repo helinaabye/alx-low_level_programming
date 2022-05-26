@@ -1,0 +1,8 @@
+
+!*.c
+!*.h
+!*.md
+!*.asm
+
+_putchar.c
+*main.c
