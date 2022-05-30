@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - is a function that prints opcodes of this function
  * @argc: the number of arguments
